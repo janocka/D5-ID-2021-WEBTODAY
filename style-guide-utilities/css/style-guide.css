@@ -1,0 +1,28 @@
+:root {
+  --sg-color: #d3d3d3 ;
+}
+
+.sg-h1,
+.sg-h2,
+.sg-h3,
+.sg-h4,
+.sg-h5
+ {
+  font-family: helvetica;
+  color : var(--sg-color);
+  border-bottom: 1px solid var(--sg-color);
+}
+
+.sg-h1 {
+  text-align: center;
+}
+
+.sg-h3 {
+  border-bottom: none;
+}
+
+
+.sg-p {
+  font-family: helvetica;
+  color : var(--sg-color);
+}
