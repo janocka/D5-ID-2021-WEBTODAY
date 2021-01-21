@@ -1,8 +1,36 @@
 
+img {
+  width : 100%;
+}
+
 .article-illustration {
   max-width: 600px;
 }
 
-.article-illustration img {
-  width : 100%;
+.ill_principale_article {
+  max-width: 470px;
+}
+
+.ill_secondaire_article {
+  max-width: 260px;
+}
+
+.ill_tertiaire_article {
+  max-width: 520px;
+}
+
+.ill_liste_article {
+  max-width: 285px;
+}
+
+.ill_bio_auteur {
+  max-width: 145px;
+}
+
+.logo {
+  max-width: 180px;
+}
+
+.ill_web_talk {
+  max-width: 580px;
 }
