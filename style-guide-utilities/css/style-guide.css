@@ -21,12 +21,11 @@
   border-bottom: none;
 }
 
-
 .sg-p {
   font-family: helvetica;
   color : var(--sg-color);
 }
-.graphique {
+.sg-graphique {
   display: flex;
   justify-content:space-between;
 }

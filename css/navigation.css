@@ -1,0 +1,9 @@
+@media (min-width: 600px) {
+  .navbar {background: green;
+
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+}
