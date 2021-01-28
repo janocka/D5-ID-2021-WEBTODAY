@@ -34,3 +34,20 @@ img {
 .ill_web_talk {
   max-width: 580px;
 }
+
+.bouton_retour {
+  max-width: 63px;
+}
+.bouton_play_article {
+max-width: 64px;
+}
+.bouton_fermer {
+  max-width: 39px;
+}
+.bouton_play_suggestions {
+max-width: 39px;
+}
+.graphique {
+  display: flex;
+  justify-content:space-between;
+}
