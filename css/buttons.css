@@ -1,7 +1,7 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.button_orange{
+.button_orange {
     padding: 0.25em 1.8em;
     border: 0.09em solid black;
     border-radius: 20px;
@@ -10,7 +10,7 @@
     text-decoration: none;
   }
 
-.button_bleu{
+.button_bleu {
     padding: 0.25em 1.8em;
     border: 0.09em solid black;
     border-radius: 20px;
@@ -19,41 +19,41 @@
     text-decoration: none;
     }
 
-.button_rose{
+.button_rose {
     padding: 0.25em 1.8em;
     border: 0.09em solid black;
     border-radius: 20px;
     background:#F19DCD;
     color: black;
     text-decoration: none;
-    }
+  }
 
-.button_noir{
+.button_noir {
     padding: 0.25em 1.8em;
     border: 0.09em solid black;
     border-radius: 20px;
     background:#0C0B22;
     text-decoration: none;
     color: white;
-    }
+  }
 
-.button_jaune{
+.button_jaune {
     padding: 0.25em 1.8em;
     border: 0.09em solid black;
     border-radius: 20px;
     background:#FAD24C;
     color: black;
     text-decoration: none;
-    }
+  }
 
-/*.bouton-profil-menu{
-    padding: 1em 4.7em;
-    border: 0.09em solid #F1F1F1;
-    border-radius: 40px;
+.button_blanc {
+    padding: 0.25em 1.8em;
+    border: 0.09em solid white;
+    border-radius: 20px;
     background: white;
-    color: black;
-    box-shadow: 0px 5px 7px #C4C4C4;
-    }*/
+    color: white;
+    text-decoration: none;
+  }
 
 .bouton_profil {
   display: flex;
