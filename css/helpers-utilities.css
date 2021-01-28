@@ -35,3 +35,18 @@ hr {
   content: "";
   display: table;
   clear: both; }
+
+  /* Colours
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.colour-section {
+  display: flex;
+  justify-content: center;
+}
+
+.colour-circles {
+  max-width: 9%;
+}
+
+figcaption {
+  font-family: var(--main-font);
+}
