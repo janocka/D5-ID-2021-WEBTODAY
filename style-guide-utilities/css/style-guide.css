@@ -26,3 +26,8 @@
   font-family: helvetica;
   color : var(--sg-color);
 }
+
+.colour-section {
+  display: flex;
+  justify-content: center;
+}
