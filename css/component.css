@@ -1,0 +1,9 @@
+.ill_liste_article {
+border-radius: 2em;
+overflow: hidden;
+}
+
+.bloc-article{
+  background-color: blue;
+  border-radius: 2px;
+}
