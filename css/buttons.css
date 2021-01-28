@@ -1,58 +1,87 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: var(--text-color-softer);
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid var(--border-color);
-  cursor: pointer;
-  box-sizing: border-box; }
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: var(--text-color-normal);
-  border-color: var(--text-color-softer);
-  outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: var(--button-primary-color);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color); }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: var(--button-primary-color);
-  background-color: var(--accent-color-hover);
-  border-color: var(--accent-color-hover); }
+
+.button_orange{
+    padding: 0.25em 1.8em;
+    border: 0.09em solid black;
+    border-radius: 20px;
+    background:#F08861;
+    color: black;
+    text-decoration: none;
+  }
+
+.button_bleu{
+    padding: 0.25em 1.8em;
+    border: 0.09em solid black;
+    border-radius: 20px;
+    background:#2F76BA;
+    color: white;
+    text-decoration: none;
+    }
+
+.button_rose{
+    padding: 0.25em 1.8em;
+    border: 0.09em solid black;
+    border-radius: 20px;
+    background:#F19DCD;
+    color: black;
+    text-decoration: none;
+    }
+
+.button_noir{
+    padding: 0.25em 1.8em;
+    border: 0.09em solid black;
+    border-radius: 20px;
+    background:#0C0B22;
+    text-decoration: none;
+    color: white;
+    }
+
+.button_jaune{
+    padding: 0.25em 1.8em;
+    border: 0.09em solid black;
+    border-radius: 20px;
+    background:#FAD24C;
+    color: black;
+    text-decoration: none;
+    }
+
+/*.bouton-profil-menu{
+    padding: 1em 4.7em;
+    border: 0.09em solid #F1F1F1;
+    border-radius: 40px;
+    background: white;
+    color: black;
+    box-shadow: 0px 5px 7px #C4C4C4;
+    }*/
+
+.bouton_profil {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.9em 3.625em;
+  border: 0.09em solid #F1F1F1;
+  border-radius: 30px;
+  background: white;
+  color: black;
+  box-shadow: 0px 5px 7px #C4C4C4;
+}
+
+#bouton_profil_container {
+  max-width: 70px;
+  border-radius: 1px black solid;
+  overflow: hidden;
+}
+
+.bouton_profil img {
+
+}
+
+
+.bouton_profil span {
+
+}
+
+.bouton_profil {
+
+}
