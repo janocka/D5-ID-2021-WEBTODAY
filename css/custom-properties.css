@@ -42,7 +42,7 @@ html {
 	/* Grid Defaults - default to match orig skeleton settings */
 	--grid-max-width: 960px;
 	--title-font : degular, sans-serif;
-	--main-font : titillium-web, sans-serif;
+	--main-font : source-sans, sans-serif;
 }
 
 /*  Dark Theme
