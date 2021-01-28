@@ -27,7 +27,12 @@
   color : var(--sg-color);
 }
 
+
 .colour-section {
   display: flex;
   justify-content: center;
+
+.graphique {
+  display: flex;
+  justify-content:space-between;
 }

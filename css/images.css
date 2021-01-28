@@ -47,7 +47,3 @@ max-width: 64px;
 .bouton_play_suggestions {
 max-width: 39px;
 }
-.graphique {
-  display: flex;
-  justify-content:space-between;
-}
