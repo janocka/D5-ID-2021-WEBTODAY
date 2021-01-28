@@ -30,8 +30,9 @@
 .colour-section {
   display: flex;
   justify-content: center;
+}
 
-.graphique {
+.sg-graphique {
   display: flex;
   justify-content:space-between;
 }
