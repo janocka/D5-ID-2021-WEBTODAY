@@ -25,7 +25,13 @@
   font-family: helvetica;
   color : var(--sg-color);
 }
-.sg-graphique {
+
+
+.colour-section {
+  display: flex;
+  justify-content: center;
+
+.graphique {
   display: flex;
   justify-content:space-between;
 }

@@ -38,10 +38,7 @@ hr {
 
   /* Colours
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.colour-section {
-  display: flex;
-  justify-content: center;
-}
+
 
 .colour-circles {
   max-width: 9%;
