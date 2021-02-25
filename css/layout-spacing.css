@@ -25,7 +25,7 @@ form {
   grid-template-columns: repeat(4, 1fr);
   display: grid;
   padding: 3em;
-  column-gap: 1.5em;
+  column-gap: 1em;
 }
 
 /*.episode{
