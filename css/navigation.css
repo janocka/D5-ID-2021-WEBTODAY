@@ -1,9 +1,22 @@
 @media (min-width: 600px) {
-  .navbar {background: green;
 
+  .navbar {
+    background: white;
   }
+
+header{
+display:grid;
+}
 
   .navbar ul {
     display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+
   }
+
+  li{
+  list-style-type: none;
+  }
+
 }
