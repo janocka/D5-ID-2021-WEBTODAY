@@ -21,3 +21,45 @@ form {
 
   /* Layouts
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.episodes{
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  padding: 3em;
+  column-gap: 1.5em;
+}
+
+/*.episode{
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  margin-bottom: 6em;
+}*/
+
+.web-talk {
+    max-width: 40%;
+    height: auto;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.article-texte{
+  grid-template-columns: 200px auto auto 200px;;
+  display: grid;
+}
+
+.article-texte-gauche{
+  grid-column-start: 2;
+}
+
+.suite{
+  display: flex;
+}
+
+.bouton_retour{
+    grid-column-start: 1;
+justify-self: end;
+position: fixed;
+}

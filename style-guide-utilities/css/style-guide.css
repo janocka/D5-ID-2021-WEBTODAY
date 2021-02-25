@@ -34,5 +34,22 @@
 
 .sg-graphique {
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
+}
+
+header{
+  padding: 3em;
+  grid-template-columns: repeat (2, 1fr);
+}
+
+.logo{
+  grid-column-start: 1;
+}
+
+.menu{
+  grid-column-start: 2;
+}
+
+.logo img{
+  max-width: 30%;
 }
