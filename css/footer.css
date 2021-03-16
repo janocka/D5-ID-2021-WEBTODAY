@@ -4,7 +4,7 @@ footer {
   bottom:0;
   left:0;
   width:100%;
-  min-height: 550px;
+  min-height: 480px;
   background: black;
   padding-top: 75px;
 }
@@ -17,7 +17,13 @@ footer {
   padding-left: 220px;
   padding-top: 60px;
   padding-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+    }
 
+.footer-section {
+    display: flex;
+    justify-content: center;
 }
 
 .mots-clef a {
@@ -27,3 +33,67 @@ footer {
 .texteblanc {
   color: white;
 }
+
+
+@media (min-width: 600px) and (max-width: 1200px) {
+
+  footer {
+    position: relative;
+    text-align: center;
+    bottom:0;
+    left:0;
+    width:100%;
+    background: black;
+    padding-top: 75px;
+  }
+
+  .mots-clef {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-section{
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  footer {
+    position: relative;
+    text-align: center;
+    bottom:0;
+    left:0;
+    width:100%;
+    background: black;
+    padding-top: 75px;
+  }
+
+  .mots-clef {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-section{
+      display: flex;
+      flex-direction: column;
+  }
+
+    }
