@@ -28,11 +28,21 @@ form {
   column-gap: 1em;
 }
 
-/*.episode{
-  margin-right: 1.5em;
-  margin-left: 1.5em;
-  margin-bottom: 6em;
-}*/
+@media (max-width: 1000px) {
+  .episodes{
+    grid-template-columns: repeat(2, 285px);
+    display: grid;
+    padding: 2em;
+    column-gap: 2em;
+  }
+ }
+
+.episode{
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .web-talk {
     max-width: 40%;
@@ -46,12 +56,29 @@ form {
 
 
 .article-texte{
-  grid-template-columns: 200px auto auto 200px;;
+  grid-template-columns: repeat(6, 1fr);
   display: grid;
+  column-gap: 1em;
 }
+
+@media (max-width: 800px) {
+
+  .article-texte{
+    grid-template-columns: repeat(1, 1fr);
+    display: block;
+    padding: 4em;
+  }
+  }
+
 
 .article-texte-gauche{
   grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.article-texte-droite{
+  grid-column-start: 4;
+  grid-column-end: 6;
 }
 
 .suite{
