@@ -1,0 +1,225 @@
+:root {
+  --main-dark-color: #F09BCC; /* Main Dark color */
+  --second-dark-color: #5D5A59; /* Secondary Dark color */
+  --main-light-color: #ADADAD; /* Main Light color */
+  --second-light-color: #BFBFBF; /* Secondary Light color */
+  --lightest-color: #18171D; /* Very Light color */
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+
+
+.controls {
+   width:50vw;
+   margin: 0 auto;
+   position:relative;
+   overflow: hidden;
+   padding : 1em 1em 0;
+}
+
+.controls[data-state=hidden] {
+   display:none;
+}
+
+.controls[data-state=visible] {
+   display:block;
+}
+
+.main-button-block,
+.secondary-buton-block,
+.progress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.main-button-block {
+  margin : 2em auto;
+}
+
+
+.secondary-buton-block {
+  justify-content: space-between;
+  margin : 0.5em;
+}
+
+
+.controls > * {
+
+}
+
+.controls > *:first-child {
+/*   margin-left:0; */
+}
+
+/*### progress bar ###*/
+
+.controls .progress {
+  cursor:pointer;
+  display:block;
+  height:1em;
+  width: 50%;
+  margin : 0.125rem 0 1em;
+  border:none;
+  background: var(--lightest-color);
+  color: var(--lightest-color);
+}
+
+  .controls progress[data-state="fake"] {
+   background:red;
+   height:65%;
+}
+
+.controls progress {
+  height: 1em;
+  width: 100%;
+  border-radius: 0;
+}
+
+.controls progress span {
+   width:0%;
+   height:5em;
+   display:inline-block;
+   background-color:var(--lightest-color);
+}
+
+.controls progress::-moz-progress-bar {
+   background-color: var(--lightest-color);
+}
+
+
+.controls progress::-webkit-progress-value {
+   background-color:var(--lightest-color);
+}
+
+
+
+#playpause {
+  width: 4vw;
+  height:4vw;
+  border-radius: 100%;
+  background: var(--lightest-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+}
+
+#stop {
+  background: var(--lightest-color);
+  width: 4vw;
+  height: 4vw;
+  border-radius: 2em;
+  margin-right: 1vw;
+}
+
+.controls button:hover {
+   opacity:0.5;
+}
+
+.controls button:focus {
+    outline: none;
+    opacity: 1;
+}
+
+
+#playpause::before {
+  display: block;
+  content: " ";
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+  border-left: 1vw solid var(--main-dark-color);
+}
+
+#playpause[data-state=pause]::before {
+  display: block;
+  content: " ";
+  width: 0.125vw;
+  height: 1.75vw;
+  border-top: none;
+  border-bottom: none;
+  border-left: 0.5vw solid var(--main-dark-color);
+  border-right: 0.5vw solid var(--main-dark-color);
+}
+
+#playpause[data-state=pause] {
+  background: var(--second-light-color);
+}
+
+/*---## MUTE BUTTON ##---*/
+
+#mute {
+
+  width: 4vw;
+  height: 4vw;
+  border-radius: 100%;
+}
+
+#mute[data-state=mute] {
+
+  content: "Mute";
+}
+
+#mute[data-state=mute]::before {
+  content: "Mute";
+}
+
+
+#mute[data-state=unmute] {
+
+  content: "Un-mute";
+}
+
+
+#mute[data-state=unmute]::before {
+  content: "Un-mute";
+}
+
+#progress-bar{
+  background: var(--lightest-color);
+}
+
+/*---## VOLUME ##---*/
+
+.volume-buton-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75em;
+}
+
+.volume-buton-block > * {
+  margin: 0.25vw;
+}
+
+
+#volinc::before,
+#voldec::after
+ {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 1vw solid white;
+  border-right: 1vw solid white;
+}
+
+#volinc::before {
+  border-bottom: 1vw solid var(--main-dark-color);
+}
+
+#voldec::after {
+  border-top: 1vw solid var(--main-dark-color);
+}
+
+
+footer {
+  min-height: 15vh;
+  position: absolute;
+ bottom: 0;
+}

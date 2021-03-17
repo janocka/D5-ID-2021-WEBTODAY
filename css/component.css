@@ -17,6 +17,36 @@ padding-bottom: 1em;
 margin-top: -1em;
   text-align: left;
 }
+.suggestions{
+  display: flex;
+  flex-direction: row;
+}
+
+.figure-suggestion{
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  max-width: 285px;
+}
+
+.suggestion-info{
+  display: block;
+  margin-left: 5%;
+}
+
+.image1-article{
+  max-width: 470px;
+    border-radius: 30px;
+}
+
+.article-info{
+  display: block;
+  margin-left: 5%;
+}
+
+.presentation_article{
+  display: flex;
+  flex-direction: row;
+}
 
 h6{
   margin-top: -0.6em;
