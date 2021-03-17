@@ -38,8 +38,7 @@
 }
 
 header{
-  padding: 3em;
-  grid-template-columns: repeat (2, 1fr);
+padding: 3em;
 }
 
 .logo{
@@ -51,5 +50,5 @@ header{
 }
 
 .logo img{
-  max-width: 30%;
+  max-width: 60%;
 }
