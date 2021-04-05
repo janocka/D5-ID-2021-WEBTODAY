@@ -23,21 +23,14 @@ form {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .episodes{
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6);
   display: grid;
   padding: 3em;
-  column-gap: 1em;
+  column-gap: 2em;
+  row-gap: 3em;
 }
 
-@media (max-width: 1000px) {
-  .episodes{
-    grid-template-columns: repeat(2, 285px);
-    display: grid;
-    padding: 2em;
-    column-gap: 2em;
-  }
- }
-
-.episode{
+.bloc-article{
   margin-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -53,6 +46,15 @@ form {
     margin-right: auto;
 
 }
+
+@media (max-width: 1000px) {
+  .episodes{
+    grid-template-columns: repeat(2, 285px);
+    display: grid;
+    padding: 2em;
+    column-gap: 2em;
+  }
+ }
 
 
 .article-texte{
@@ -70,6 +72,10 @@ form {
   }
   }
 
+.presentation_article{
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
 
 .article-texte-gauche{
   grid-column-start: 2;
@@ -85,8 +91,6 @@ form {
   display: flex;
 }
 
-.bouton_retour{
-    grid-column-start: 1;
-justify-self: end;
-position: fixed;
+figure{
+  justify-self:end;
 }

@@ -1,5 +1,7 @@
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
 html {
   font-size: var(--base-font-size);
   scroll-behavior: smooth;
@@ -37,13 +39,14 @@ h3 {font-size: 2.6667em;
   font-weight: 400;
 }
 
-h4 {font-size: 1.5em;
-  font-weight: 600;
+h4 {font-size: 2.5vh;
+  font-weight: 700;
 }
 
 h5 {margin-top: 0;
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 1em;
 }
 
 h6{
@@ -51,7 +54,12 @@ h6{
   font-weight: 300;
 }
 
-a,small, .text_small {font-size: 1.667rem;}
+a,small, .text_small {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  font-family: "degular display", sans-serif;
+}
 
 /* Larger than phablet */
 @media (min-width: 600px) {
@@ -68,9 +76,12 @@ a,small, .text_small {font-size: 1.667rem;}
   margin-top: 0;
     font-size: 2.6667em;}
 
-  h4 {
-    margin-top: 0;
-      font-size: 20px;}
+  h4  {
+    font-size: 23px;
+      font-weight: 700;
+      letter-spacing: 0.025em;
+      font-family: "degular display", sans-serif;
+    }
 
   h5 {
         margin-top: 0;
