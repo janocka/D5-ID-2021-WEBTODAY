@@ -7,12 +7,12 @@ margin-left: 0em;
 
 .bloc-article{
   background-color: white;
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
 }
 
-.bloc-article a:hover{
-  background-color:rgba(240, 136, 97, 0.6);
+.bloc-article:hover{
+  background-color: rgba(240, 136, 97, 0.6);
 }
 
 .description{
@@ -21,6 +21,7 @@ padding-bottom: 1em;
 margin-top: -1em;
   text-align: left;
 }
+
 .suggestions{
   display: flex;
   flex-direction: row;
