@@ -101,39 +101,3 @@ border-radius: 100px;
   right: 593px;
   top: 248px;
 }
-.container-equipe  {
-
-}
-
-.overlay {
-  position: absolute;
-  height: 190px;
-  width: 190px;
-  left: 593px;
-  top: 248px;
-  bottom: 0;
-  border-radius: 100px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: orange;
-}
-.container-equipe:hover .overlay {
-  opacity: 3;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.description-audrey {
-  position: absolute;
- left: 800px;
- top: 270px;
-}
