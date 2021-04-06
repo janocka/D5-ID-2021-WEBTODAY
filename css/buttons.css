@@ -56,7 +56,6 @@
 
 .bouton_profil {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   padding;
   border: 0.09em solid #F1F1F1;
@@ -64,13 +63,14 @@
   background: white;
   color: black;
   box-shadow: 0px 5px 7px #C4C4C4;
+  width: 100%;
 }
 
 #bouton_profil_container {
-  max-width: 50px;
+  width: 50px;
   border-radius: 60px;
   overflow: hidden;
-  margin-right: 1em;
+  margin: 0.3em;
 }
 
 .bouton_profil img {
@@ -79,7 +79,7 @@
 
 
 .bouton_profil span {
-
+margin-left: 15%;
 }
 
 .bouton_profil {

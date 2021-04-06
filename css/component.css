@@ -1,8 +1,8 @@
 .ill_liste_article {
 border-radius: 2em;
 overflow: hidden;
-margin-left: 0em;
-
+margin-left: auto;
+margin-right: auto;
 }
 
 .bloc-article{
@@ -11,14 +11,25 @@ margin-left: 0em;
   border-radius: 30px;
 }
 
-.bloc-article:hover{
-  background-color: rgba(240, 136, 97, 0.6);
+#orange:hover{
+  background-color: rgba(252, 144, 83, 0.8);
+    transition: all 0.4s ease-in;
+}
+
+#jaune:hover{
+  background-color: rgba(249, 235, 72, 0.8);
+    transition: all 0.4s ease-in;
+}
+
+#rose:hover{
+  background-color: rgba(241, 157, 205, 0.8);
+    transition: all 0.4s ease-in;
 }
 
 .description{
 padding: 1.5em;
 margin-top: -1em;
-  text-align: left;
+text-align: left;
 }
 
 .suggestions{
@@ -61,8 +72,9 @@ h4{
 }
 
 button{
-  margin-top: 2em;
-  margin-left: 1em;
+margin-top: 2em;
+margin-left: auto;
+margin-right: auto;
 }
 
 p{

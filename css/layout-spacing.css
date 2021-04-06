@@ -44,23 +44,14 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-@media (max-width: 1000px) {
-  .episodes{
-    grid-template-columns: repeat(2, 285px);
-    display: grid;
-    padding: 2em;
-    column-gap: 2em;
-  }
- }
 
 
 .article-texte{
   grid-template-columns: repeat(6, 1fr);
   display: grid;
-  column-gap: 1em;
+  column-gap: 3em;
 }
 
 @media (max-width: 800px) {
@@ -70,11 +61,23 @@ form {
     display: block;
     padding: 4em;
   }
+
+  .episodes{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    padding: 4em;
+    column-gap: 3em;
+  }
+
+  .web-talk {
+      max-width: 70%;
+  }
   }
 
 .presentation_article{
   grid-column-start: 2;
   grid-column-end: 6;
+  margin-bottom: 3em;
 }
 
 .article-texte-gauche{

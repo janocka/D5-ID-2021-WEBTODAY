@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Web Talk Accueil</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -21,7 +21,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/layout-spacing.css">
+  <link rel="stylesheet" href="css/layout-spacing.css">
+  <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="style-guide-utilities/css/style-guide.css">
 
   <!-- Favicon
@@ -36,30 +37,38 @@
 <img src="images/logo.png" alt="logo">
     </div>
 
-<a href="#main-menu" class="open-menu"> Open menu </a>
-    <nav id="main-menu" class="main-menu"> <a href="#main-menu-toggle" class="main-menu-close">fermer</a>
-
-  <ul class="menu">
-        <li><a href="home.html">Les épisodes</a></li>
-        <li><a href="equipe.html">L'équipe</a></li>
-
+    <button class="menu-btn" id="menu-btn">
+      <span id="barre" class="menu-btn__top"></span>
+      <span id="barre" class="menu-btn__center"></span>
+      <span id="barre" class="menu-btn__bottom"></span>
+    </button>
+    <nav id="nav" class="nav">
+      <ul class="nav__list">
+        <li class="nav__list__item">
+          <a href="home.html" class="nav__list__item__link">Articles</a>
+        </li>
+        <li class="nav__list__item">
+          <a href="equipe.html" class="nav__list__item__link">Equipe</a>
+        </li>
+        <li class="nav__list__item">
+          <a href="#" class="nav__list__item__link">Contact</a>
+        </li>
       </ul>
-
     </nav>
 
-<a href="#main-menu-toggle" class="backdrop"></a>
 
   </header>
 
       <figure class="web-talk">
-  <img src="images/web_talk.svg" alt="web-talk">
+  <img src="images/web_talk2.png" alt="web-talk">
         </figure>
 
 <div class="episodes">
 
   <div class="episode">
   <h4 class="nom-episode">Episode 1</h4>
-  <div class="bloc-article">
+  <a href="article-audrey.html">
+  <div id="orange" class="bloc-article" >
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_audrey.jpg" alt="Image clic article et podcast">
@@ -70,11 +79,10 @@
       <h5>Qu’est ce qu’un designer Full Stack ?</h5>
       <h6>Audrey Beziat</h6>
       <p>Le Lorem Ipsum est
-  simplement du faux texte employé dans la composition
-  et la mise en page avant impression........</p>
+  simplement du faux texte employé dans la composition …<br> <br> <br> </p>
   </div>
 
-  </div>
+  </div> </a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_audrey.jpg" alt="image de audrey"/>
@@ -85,7 +93,8 @@
 
   <div class="episode">
   <h4>Episode 2</h4>
-  <div class= "bloc-article">
+  <a href="article-emma.html">
+  <div id="jaune" class= "bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_emma.jpg" alt="Image clic article et podcast">
@@ -97,9 +106,9 @@
       <h6>Emma Colongue</h6>
       <p>Le Lorem Ipsum est
   simplement du faux texte employé dans la composition
-et la mise en page avant impression........</p>
+et la mise en page avant impression........<br> <br> </p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_emma.jpg" alt="image de audrey"/>
@@ -109,7 +118,8 @@ et la mise en page avant impression........</p>
 
   <div class="episode">
   <h4>Episode 3</h4>
-  <div class="bloc-article">
+  <a href="article-fanny.html">
+  <div id="rose" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_fanny.jpg" alt="Image clic article et podcast">
@@ -123,7 +133,7 @@ et la mise en page avant impression........</p>
   simplement du faux texte employé dans la composition
   avant impression........</p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_fanny.jpg" alt="image de audrey"/>
@@ -133,7 +143,8 @@ et la mise en page avant impression........</p>
 
   <div class="episode">
   <h4>Episode 4</h4>
-  <div class="bloc-article">
+  <a href="article-leyla.html">
+  <div id="orange" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_leyla.jpg" alt="Image clic article et podcast">
@@ -145,9 +156,9 @@ et la mise en page avant impression........</p>
       <h6>Leyla Faiez</h6>
       <p>Le Lorem Ipsum est
   simplement du faux texte employé dans la composition
-  et la mise en page avant impression........</p>
+  et la mise en page avant impression........<br> <br> </p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_leyla.jpg" alt="image de leyla"/>
@@ -157,7 +168,8 @@ et la mise en page avant impression........</p>
 
   <div class="episode">
   <h4>Episode 5</h4>
-  <div class="bloc-article">
+  <a href="article-pauline.html">
+  <div id="jaune" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_pauline.jpg" alt="Image clic article et podcast">
@@ -170,9 +182,9 @@ prototypage et développement web</h5>
       <h6>Pauline Garnier</h6>
       <p>Le Lorem Ipsum est
   simplement du faux texte employé dans la composition
-  avant impression........</p>
+  avant impression........<br></p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_pauline.jpg" alt="image de pauline"/>
@@ -182,7 +194,8 @@ prototypage et développement web</h5>
 
   <div class="episode">
   <h4>Episode 6</h4>
-  <div class="bloc-article">
+  <a href="article-melanie.html">
+  <div id="rose" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_melanie.jpg" alt="Image clic article et podcast">
@@ -194,9 +207,9 @@ prototypage et développement web</h5>
       <h6>Mélanie Goussard</h6>
       <p>Le Lorem Ipsum est
   simplement du faux texte employé dans la composition
-  avant impression........</p>
+  avant impression........<br> <br></p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_melanie.jpg" alt="image de melanie"/>
@@ -206,7 +219,8 @@ prototypage et développement web</h5>
 
   <div class="episode">
   <h4>Episode 7</h4>
-  <div class="bloc-article">
+  <a href="article-lisa.html">
+  <div id="orange" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_lisa.jpg" alt="Image clic article et podcast">
@@ -221,7 +235,7 @@ musique</h5>
   simplement du faux texte employé dans la composition
   avant impression........</p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_lisa.jpg" alt="image de lisa"/>
@@ -231,7 +245,8 @@ musique</h5>
 
   <div class="episode">
   <h4>Episode 8</h4>
-  <div class="bloc-article">
+  <a href="article-axelle.html">
+  <div id="jaune" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_axelle.jpg" alt="Image clic article et podcast">
@@ -245,7 +260,7 @@ musique</h5>
   simplement du faux texte employé dans la composition
   avec impression........</p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_axelle.jpg" alt="image de axelle"/>
@@ -255,7 +270,8 @@ musique</h5>
 
   <div class="episode">
   <h4>Episode 9</h4>
-  <div class="bloc-article">
+  <a href="article-jeremy.html">
+  <div id="rose" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_jeremy.gif" alt="Image clic article et podcast">
@@ -269,7 +285,7 @@ musique</h5>
   simplement du faux texte employé dans la composition
   avec impression........</p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_jeremy.jpg" alt="image de jeremy"/>
@@ -279,7 +295,8 @@ musique</h5>
 
   <div class="episode">
   <h4>Episode 10</h4>
-  <div class="bloc-article">
+    <a href="article-clotilde.html">
+  <div id="orange" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_clotilde.jpg" alt="Image clic article et podcast">
@@ -293,7 +310,7 @@ musique</h5>
   simplement du faux texte employé dans la composition
   avec impression........</p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_clotilde.jpg" alt="image de clotilde"/>
@@ -303,7 +320,8 @@ musique</h5>
 
   <div class="episode">
   <h4>Episode 11</h4>
-  <div class="bloc-article">
+      <a href="article-hanshuo.html">
+  <div id="jaune" class="bloc-article">
 
       <figure class="ill_liste_article">
         <img src="images/ill_liste_article_hanshuo.jpg" alt="Image clic article et podcast">
@@ -315,9 +333,9 @@ musique</h5>
       <h6>Hanshuo Jia</h6>
       <p>Le Lorem Ipsum est
   simplement du faux texte employé dans la composition
-  avec impression........</p>
+  avec impression........<br> <br><br> <br></p>
   </div>
-  </div>
+  </div></a>
 
   <button class="bouton_profil">
       <img id="bouton_profil_container" src="images/ill_bio_auteur_hanshuo.jpg" alt="image de hanshuo"/>
@@ -353,3 +371,9 @@ musique</h5>
     </div>
 
     </footer>
+
+<script type="text/javascript" src="js/menuburger.js">
+
+</script>
+
+  </body>
