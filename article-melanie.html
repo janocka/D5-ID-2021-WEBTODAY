@@ -36,23 +36,18 @@
 <a href="home.html"><img src="images/logo.png" alt="logo"></a>
     </div>
 
-    <button class="menu-btn" id="menu-btn">
-      <span id="barre" class="menu-btn__top"></span>
-      <span id="barre" class="menu-btn__center"></span>
-      <span id="barre" class="menu-btn__bottom"></span>
-    </button>
-    <nav id="nav" class="nav">
-      <ul class="nav__list">
-        <li class="nav__list__item">
-          <a href="home.html" class="nav__list__item__link">Articles</a>
-        </li>
-        <li class="nav__list__item">
-          <a href="equipe.html" class="nav__list__item__link">Equipe</a>
-        </li>
-        <li class="nav__list__item">
-          <a href="#" class="nav__list__item__link">Contact</a>
-        </li>
+    <a href="#main-menu" id="menu-open"><span></span></a>
+
+    <nav id="main-menu">
+      <div class="main-menu-content">
+      <a href="#" id="menu-close"><span></span></a>
+      <ul>
+        <li id="article-home"><a href="home.html">Articles</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
       </ul>
+      </div>
     </nav>
 
 
@@ -128,8 +123,6 @@ Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la burea
 </div>
 
 </footer>
-  <script type="text/javascript" src="js/menuburger.js">
 
-  </script>
 
   </body>
