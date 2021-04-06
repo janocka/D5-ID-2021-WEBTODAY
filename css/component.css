@@ -11,6 +11,11 @@ margin-right: auto;
   border-radius: 30px;
 }
 
+.ill_liste_article:hover{
+opacity: 0.5;
+    transition: all 0.4s ease-in;
+}
+
 #orange:hover{
   background-color: rgba(252, 144, 83, 0.8);
     transition: all 0.4s ease-in;

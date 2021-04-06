@@ -54,25 +54,6 @@ form {
   column-gap: 3em;
 }
 
-@media (max-width: 800px) {
-
-  .article-texte{
-    grid-template-columns: repeat(1, 1fr);
-    display: block;
-    padding: 4em;
-  }
-
-  .episodes{
-    grid-template-columns: repeat(2, 1fr);
-    display: grid;
-    padding: 4em;
-    column-gap: 3em;
-  }
-
-  .web-talk {
-      max-width: 70%;
-  }
-  }
 
 .presentation_article{
   grid-column-start: 2;
@@ -92,8 +73,98 @@ form {
 
 .suite{
   display: flex;
+grid-gap: 1em;
+}
+
+.ill_secondaire_article{
+  grid-column-start: 5;
+  grid-column-end: 6;
 }
 
 figure{
   justify-self:end;
 }
+
+
+
+.next{
+background-color: #F19DCD;
+padding: 1em;
+font-family: "degular display", sans-serif;
+font-size: 23px;
+font-weight: 700;
+letter-spacing: 0.025em;
+text-decoration: none;
+margin-top: 2em;
+}
+
+.next li{
+  list-style: none;
+}
+
+.next a{
+  color: #1867F2;
+}
+
+.next a:hover{
+  text-decoration: underline;
+}
+
+.next ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+
+.next img{
+  width: 80px;
+}
+
+
+#f1{
+  -webkit-transform: rotate(180deg);
+}
+
+.f1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+
+  .article-texte{
+    grid-template-columns: repeat(1, 1fr);
+    display: block;
+    padding: 4em;
+  }
+
+  .episodes{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    padding: 4em;
+    column-gap: 3em;
+  }
+
+  .web-talk {
+      max-width: 70%;
+  }
+
+  .next{
+    font-size: 18px;
+  }
+
+  .next img{
+    width: 40px;
+  }
+
+  .next ul{
+    margin-right: 0em;
+    margin-left: 0em;
+  }
+  .presentation_article{
+display: block;
+  }
+  }
