@@ -2,6 +2,11 @@
   background-color: #F9EB48;
 }
 
+.titre-ecole{
+  background-color: #F19DCD;
+    padding-bottom: 2em;
+}
+
 .container-equipe  {
 
 }
@@ -41,4 +46,27 @@
 
 .titre-equipe h1{
   text-align: center;
+  padding-top: 1em;
+}
+
+.titre-ecole h1{
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+}
+
+.titre-ecole{
+  text-align: center;
+  color: white;
+padding-right: 15%;
+padding-left: 15%;
+}
+
+#ecv{
+  color: #1867F2;
+  font-style: italic;
+}
+
+.titre-ecole p, .titre-ecole h5{
+  color: #1867F2;
 }
