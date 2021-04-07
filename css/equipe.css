@@ -1,5 +1,28 @@
+header{
+  background-color: #F19DCD;
+}
+
 .titre-equipe{
-  background-color: #F9EB48;
+  background-color: #FC9053;
+}
+
+.grid{
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  column-gap: 2em;
+  padding-top: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.un{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.deux{
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .titre-ecole{
@@ -13,11 +36,6 @@
 
 .overlay {
   position: absolute;
-  height: 190px;
-  width: 190px;
-  left: 593px;
-  top: 248px;
-  bottom: 0;
   border-radius: 100px;
   opacity: 0;
   transition: .5s ease;
@@ -46,7 +64,10 @@
 
 .titre-equipe h1{
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: white;
+  color: #FC9053 ;
 }
 
 .titre-ecole h1{

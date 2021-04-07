@@ -4,6 +4,8 @@ overflow: hidden;
 margin-left: auto;
 margin-right: auto;
 flex-basis: 250px;
+max-width: 500px;
+max-height: 500px;
 }
 
 figure.ill_liste_article img{
@@ -62,8 +64,9 @@ text-align: left;
 
 .image1-article{
   max-width: 470px;
-    border-radius: 30px;
+  border-radius: 600px;
 }
+
 
 .article-info{
   display: block;
