@@ -174,8 +174,18 @@ align-items: center;
 justify-content: flex-end;
 }
 #f1 {
+  transition: transform .7s ease-in-out;
   cursor: pointer;
 }
+
+#f1:hover {
+  transform: rotate(360deg);
+}
 #f2 {
+  transition: transform .7s ease-in-out;
   cursor: pointer;
+}
+
+#f2:hover {
+  transform: rotate(-180deg);
 }
