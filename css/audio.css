@@ -10,14 +10,14 @@ html * {
   box-sizing: border-box;
 }
 
-
+.fig {
+  position: absolute;
+}
 
 .controls {
-   width:50vw;
-   margin: 0 auto;
+   width:35vw;
    position:relative;
    overflow: hidden;
-   padding : 1em 1em 0;
 }
 
 .controls[data-state=hidden] {
@@ -36,10 +36,10 @@ html * {
   align-items: center;
 }
 
-
+/*
 .main-button-block {
   margin : 2em auto;
-}
+}*/
 
 
 .secondary-buton-block {
@@ -65,7 +65,6 @@ html * {
   width: 50%;
   margin : 0.125rem 0 1em;
   border:none;
-  background: var(--lightest-color);
   color: var(--lightest-color);
 }
 
@@ -99,8 +98,8 @@ html * {
 
 
 #playpause {
-  width: 4vw;
-  height:4vw;
+  width: 3vw;
+  height: 3vw;
   border-radius: 100%;
   background: var(--lightest-color);
   display: flex;
@@ -111,8 +110,8 @@ html * {
 
 #stop {
   background: var(--lightest-color);
-  width: 4vw;
-  height: 4vw;
+  width: 3vw;
+  height: 3vw;
   border-radius: 2em;
   margin-right: 1vw;
 }
@@ -209,7 +208,7 @@ html * {
   border-right: 1vw solid white;
 }
 
-#volinc::before {
+ #volinc::before {
   border-bottom: 1vw solid var(--main-dark-color);
 }
 
