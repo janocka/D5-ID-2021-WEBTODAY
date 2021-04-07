@@ -54,6 +54,15 @@
     text-decoration: none;
   }
 
+  .button_blanc_clic {
+      padding: 0.25em 1.8em;
+      border: 0.09em solid white;
+      border-radius: 20px;
+      color: black;
+      background: white;
+      text-decoration: none;
+    }
+
 .bouton_profil {
   display: flex;
   align-items: center;
