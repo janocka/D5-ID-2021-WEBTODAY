@@ -91,6 +91,12 @@
         text-decoration: none;
 }
 
+.main-menu-content li a:hover {
+color: #1867F2;
+transition: all 0.2s ease-out;
+font-style: italic;
+}
+
 .main-menu-content ul {
 list-style: none;
 }

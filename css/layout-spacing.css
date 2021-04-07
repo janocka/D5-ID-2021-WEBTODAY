@@ -142,7 +142,7 @@ margin-top: 2em;
   }
 
   .episodes{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     display: grid;
     padding: 4em;
     column-gap: 3em;
@@ -166,6 +166,18 @@ margin-top: 2em;
   }
   .presentation_article{
 display: block;
+  }
+  }
+
+  @media (max-width: 800px) {
+    .episodes{
+      grid-template-columns: repeat(2, 1fr);
+      display: grid;
+      padding: 5em;
+      column-gap: 2em;
+    }
+  .episode h4{
+    font-size: 20px;
   }
   }
 
