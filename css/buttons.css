@@ -75,7 +75,6 @@
 .bouton_profil {
   display: flex;
   align-items: center;
-  padding;
   border: 0.09em solid #F1F1F1;
   border-radius: 60px;
   background: white;
