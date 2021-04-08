@@ -84,7 +84,7 @@
   width: 100%;
 }
 
-#bouton_profil_container {
+.bouton_profil_container {
   width: 50px;
   border-radius: 60px;
   overflow: hidden;
