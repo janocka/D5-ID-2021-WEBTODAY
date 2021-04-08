@@ -23,7 +23,6 @@ form {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .episodes{
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6);
   display: grid;
   padding: 3em;
   column-gap: 2em;
