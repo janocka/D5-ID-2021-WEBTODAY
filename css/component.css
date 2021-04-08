@@ -67,6 +67,10 @@ text-align: left;
   border-radius: 600px;
 }
 
+.image1-equipe{
+  width: 150px;
+  border-radius: 600px;
+}
 
 .article-info{
   display: block;
@@ -77,6 +81,13 @@ text-align: left;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.presentation_equipe{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3em;
+  
 }
 
 h6{

@@ -70,6 +70,12 @@ form {
   grid-column-end: 6;
 }
 
+.article-texte-both{
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+
 .suite{
   display: flex;
 grid-gap: 1em;
