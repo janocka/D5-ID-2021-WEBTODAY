@@ -33,7 +33,10 @@ form {
   margin-bottom: 1em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.description{
+  justify-content: space-around;
 }
 
 .web-talk {
@@ -145,12 +148,14 @@ margin-top: 2em;
   justify-content: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
   .article-texte{
     grid-template-columns: repeat(1, 1fr);
     display: block;
     padding: 4em;
+    margin-right: 7em;
+    margin-left: 7em;
   }
 
   .episodes{
@@ -181,7 +186,15 @@ display: block;
   }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
+
+    .article-texte{
+      grid-template-columns: repeat(1, 1fr);
+      display: block;
+      padding: 4em;
+      margin-right: 1em;
+      margin-left: 1em;
+    }
     .episodes{
       grid-template-columns: repeat(2, 1fr);
       display: grid;
