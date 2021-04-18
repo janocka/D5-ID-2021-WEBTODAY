@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Web Talk Accueil</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -20,7 +20,8 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/barebones.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="style-guide-utilities/css/style-guide.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,17 +30,325 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="grid-container halves">
-      <div>
-        <h1>The web Today Site</h1>
-          <a href="styleguide.html">Go and see the style Guide</a>
-      </div>
+  <header>
+    <div class="logo">
+  <a href="home.html"> <img src="images/logo.svg" alt="logo"> </a>
     </div>
+
+    <a href="#main-menu" id="menu-open"><span></span></a>
+
+    <nav id="main-menu">
+      <div class="main-menu-content">
+      <a href="#" id="menu-close"><span></span></a>
+      <ul>
+        <li id="article-home"><a href="home.html">Articles</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+      </div>
+    </nav>
+
+
+  </header>
+
+      <figure class="web-talk">
+  <img src="images/web_talk2.png" alt="web-talk">
+        </figure>
+
+<div class="episodes">
+
+  <div class="episode">
+  <h4 class="nom-episode">Episode 1</h4>
+  <a href="article-audrey.html">
+  <div class="bloc-article orange" >
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_audrey.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Qu’est ce qu’un designer Full Stack ? </h5>
+      <h6>Audrey Beziat</h6>
+      <p>Sa capacité à suivre un projet dans son intégralité et à facilier la communication au sein d'une équipe, font de lui un profil recherché…</p>
   </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
+  </div> </a>
+
+<a href="equipe.html#1-audrey">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_audrey.jpg" alt="image de audrey"/>
+      <span>Audrey Beziat</span>
+  </div></a>
+
+  </div>
+
+  <div class="episode">
+  <h4>Episode 2</h4>
+  <a href="article-emma.html">
+  <div class= "bloc-article jaune">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_emma.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Les possibilités du HTML/CSS</h5>
+      <h6>Emma Colongue</h6>
+      <p>L'HTML et la CSS présentent des possibilités, avantages et inconvénients parfois peu connues, que cet article propose de découvrir…</p>
+  </div>
+</div> </a>
+
+  <a href="equipe.html#2-emma">
+    <div class="bouton_profil">
+        <img class="bouton_profil_container" src="images/ill_bio_auteur_emma.jpg" alt="image de audrey"/>
+        <span>Emma Colongue</span>
+    </div></a>
+
+    </div>
+
+  <div class="episode">
+  <h4>Episode 3</h4>
+  <a href="article-fanny.html">
+  <div class="bloc-article rose">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_fanny.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>L’intéractivité améliore-t-elle vraiment l’UX ?</h5>
+      <h6>Fanny Boudin</h6>
+      <p> Omniprésent dans l’utilisation au quotidien de nos produits connectés le design d’interaction a pour finalité de rendre la technologie numérique utile et agréable à utiliser...</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#3-fanny">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_fanny.jpg" alt="image de audrey"/>
+      <span>Fanny Boudin</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 4</h4>
+  <a href="article-leyla.html">
+  <div class="bloc-article orange">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_leyla.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Design <br> Systems</h5>
+      <h6>Leyla Faiez</h6>
+      <p>Comme le dit Anna Kolmatova dans son livre « design systems », un système de design est une collection de composants réutilisables guidés par des normes graphiques et des valeurs …</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#4-leyla">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_leyla.jpg" alt="image de leyla"/>
+      <span>Leyla Faiez</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 5</h4>
+  <a href="article-pauline.html">
+  <div class="bloc-article rose">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_pauline.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Outils de prototypage & développement web</h5>
+      <h6>Pauline Garnier</h6>
+      <p>Le prototypage des interfaces numériques est aujourd’hui arrivé à maturité grâce à des solutions logicielles complètes et simples…</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#5-pauline">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_pauline.jpg" alt="image de melanie"/>
+      <span>Pauline Garnier</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 6</h4>
+  <a href="article-melanie.html">
+  <div class="bloc-article rose">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_melanie.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>La Pollution numérique</h5>
+      <h6>Mélanie Goussard</h6>
+      <p>Nos écrans sont de fumée. Ils masquent la grand quantité d'énergie et se ressources primaires requises…</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#6-melanie">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_melanie.jpg" alt="image de melanie"/>
+      <span>Mélanie Goussard</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 7</h4>
+  <a href="article-lisa.html">
+  <div class="bloc-article orange">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_lisa.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Digitaliser et rassembler la
+musique</h5>
+      <h6>Lisa Ithurritze</h6>
+      <p>En ces temps de pandémie où la culture est grièvement fracturée, il semble essentiel d’informer les utilisateurs de Radiooooo…</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#7-lisa">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_lisa.jpg" alt="image de lisa"/>
+      <span>Lisa Ithurritze</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 8</h4>
+  <a href="article-axelle.html">
+  <div class="bloc-article jaune">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_axelle.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Animer des illustrations avec le web</h5>
+      <h6>Axelle Janocka</h6>
+      <p>L'animation sur le web est sans limite et ne dépend que de nous. Et quel challenge que de s'imaginer animer un site et proposer un contenu toujours plus expérimental…</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#8-axelle">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_axelle.jpg" alt="image de axelle"/>
+      <span>Axelle Janocka</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 9</h4>
+  <a href="article-jeremy.html">
+  <div class="bloc-article rose">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_jeremy.gif" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>L'évolution des jeux dans le navigateur web.</h5>
+      <h6>Jérémy Lacour</h6>
+      <p>Faisons un tour d'horizon de ce qu'est et à été le jeu vidéo depuis sa création…</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#9-jeremy">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_jeremy.jpg" alt="image de jeremy"/>
+      <span>Jérémy Lacour</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 10</h4>
+    <a href="article-clotilde.html">
+  <div class="bloc-article orange">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_clotilde.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Comment le Web impacte le Design Graphique</h5>
+      <h6>Clotilde Rossaro</h6>
+      <p>nous allons découvrir les différents outils dont dispose un Graphiste grâce au web, mais également les limites de celui-ci dans ce métier…</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#10-clotilde">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_clotilde.jpg" alt="image de clotilde"/>
+      <span>Clotilde Rossaro</span>
+  </div></a>
+  </div>
+
+  <div class="episode">
+  <h4>Episode 11</h4>
+      <a href="article-hanshuo.html">
+  <div class="bloc-article jaune">
+
+      <figure class="ill_liste_article">
+        <img src="images/ill_liste_article_hanshuo.jpg" alt="Image clic article et podcast">
+      </figure>
+
+  <div class="description">
+
+      <h5>Web Design et VR.</h5>
+      <h6>Hanshuo Jia</h6>
+      <p>Il y a un idiome en Chine, "Zhuang Zhou Mengdie". L'histoire raconte que Zhuangzhou a
+fait un rêve très réel: il a rêvé qu'il devenait un papillon.</p>
+  </div>
+  </div></a>
+
+<a href="equipe.html#11-hanshuo">
+  <div class="bouton_profil">
+      <img class="bouton_profil_container" src="images/ill_bio_auteur_hanshuo.jpg" alt="image de hanshuo"/>
+      <span>Hanshuo Jia</span>
+  </div></a>
+  </div>
+
+    </div>
+
+
+    <footer>
+
+    <h4 class="texteblanc">Recherche par mots clés</h4>
+
+    <figure class="mots-clef">
+        <a href="home-designer.html" class="button_blanc">Designer</a>
+        <a href="home-technologies.html" class="button_blanc">Nouvelles Technologies</a>
+        <a href="home-html-css.html" class="button_blanc">HTML/ CSS</a>
+        <a href="home-ux-ui.html" class="button_blanc">UX/ UI</a>
+
+      </figure>
+
+    <div class="colour-section">
+      <figure><a href="home.html"><h4 class="texteblanc">Les épisodes</h4></a></figure>
+      <figure><a href="equipe.html"><h4 class="texteblanc">L'équipe</h4></a></figure>
+      <figure><a href="contact.html"><h4 class="texteblanc">Contact</h4></a></figure>
+    </div>
+
+    </footer>
+
+
+  </body>
